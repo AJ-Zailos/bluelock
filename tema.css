@@ -1,0 +1,144 @@
+body {
+    width: 100%;
+    background: url(https://wallpapers.com/images/featured/blue-lock-manga-zdlvz1ap4zwy7gc2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.judul {
+    font-weight: bold;
+    font-size: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2vw;
+}
+
+.alas {
+    margin-top: -4vh;
+    width: 36vw;
+    margin-left: 2vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.s1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: 3vh;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 36vw;
+    height: 10vh;
+}
+
+.onetwo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.onetwo div {
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.onetwo img {
+    width: auto;
+    height: 14vh;
+    transition: transform 0.3s ease;
+}
+
+.onetwo img:hover {
+    transform: scale(1.2);
+}
+
+.prof1 {
+    position: fixed;
+    top: 0;
+    left: 133vw;
+    background-color: black;
+    height: 100vh;
+    width: 33vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    transition: left 1s ease-out;
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.show {
+    left: 67vw;
+}
+
+
+.prof1 table {
+    color: white;
+    font-size: large;
+    text-align: justify;
+    background-color: black;
+    border-radius: 20px;
+    padding: 15px;
+    margin-top: 3vh;
+}
+
+.prof1 table tr td {
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.upper {
+    margin-top: 8vh;
+}
+
+.upper img {
+    overflow: hidden;
+    object-fit: cover;
+    object-position: top;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 3vh;
+    border-radius: 20px;
+}
+
+.upper h1 {
+    width: 33vw;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.down {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: large;
+    color: white;
+    background-color: black;
+    margin: 0;
+}
